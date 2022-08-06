@@ -1,47 +1,57 @@
----
-sidebar_position: 1
----
+import Admonition from '@theme/Admonition';
+import { Badge, Card } from 'antd';
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## What is Mikey❦ Bot?
+
+The Mikey❦ bot is an giveaway and karuta 3rd party bot which help player in many ways
+
+<Badge.Ribbon text="v3.0">
+  <Admonition Wtitle="Introduction">
+    <ul>
+      <li>Bot Name : <b>Mikey❦ Bot</b></li>
+      <li>Developer: <em>@SuniL#4342</em> <em>@ClawX69#9782</em> <em>@capednerdy#0052</em> <em>@Dei#4445</em></li>
+      <li>Support Server : <a href="https://discord.gg/dWttazRJ5f">TOMAN HIDEOUT</a></li>
+      <li>Prefix : <code>m.</code></li>
+      <li>Libraries : <code>pycord</code>, <code>mongoose</code></li>
+      <li>Used by : 2.2 million people in more than 10,200+ servers</li>
+    </ul>
+  </Admonition>
+</Badge.Ribbon>
 
 ## Getting Started
 
-Get started by **creating a new site**.
+### Invite the bot
+First invite the bot if you haven't. [Click here](https://discord.com/oauth2/authorize?client_id=861628000227164190&permissions=388192&scope=bot) to invite
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### How do I read this wiki?
 
-### What you'll need
+:::info
+Default Prefix : `m.` <br />
+You can change it by running the `m.prefix <new prefix>` command
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Documentation Syntax
 
-## Generate a new site
+`[p]` - prefix<br />
+`[ ]` - optional parameter<br />
+`< >` - required parameter<br />
+`<thing1 | thing2>` - select one of the given options
+:::
 
-Generate a new Docusaurus site using the **classic template**.
+:::warning
+Do not literally type out `< > [ ] |` etc
+:::
 
-The classic template will automatically be added to your project after you run the command:
+### How to setup
+In order to use this bot, you must grant these permissions to *@Mikey❦*
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Read Text Channels
+- Send Messages
+- Manage Messages
+- Embed Links
+- Attach Files
+- Manage Roles
+- Read Messages History
+- Use External Emojis
+- Add Reactions
